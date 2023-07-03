@@ -1,0 +1,51 @@
+.terms_p #fr_content {
+	padding-bottom: 2.813rem;
+}
+/* ------------------------------ */
+.terms_p .public_body {
+	max-width: 78.75rem;
+	margin: 0 auto;
+}
+/* ------------------------------ */
+.terms_content {
+	margin-top: 1.875rem;
+	padding: 2.5rem 3.75rem 4.375rem;
+	background-color: #1b1a2a;
+}
+/* ------------------------------ */
+.terms_box {
+	font-family: 'magistralcbold';
+	border-radius: 0.625rem;
+	font-style: italic;
+}
+/* ------------------------------ */
+.terms_box h2 {
+	font-family: 'magistralcbold';
+	line-height: 2.313rem;
+	font-size: 1.5625rem;
+	color: #ffffff;
+	margin: 0;
+}
+/* ------------------------------ */
+.terms_box p {
+	line-height: 2.313rem;
+	font-size: 1.5625rem;
+	margin-bottom: 0;
+	color: #9999cc;
+}
+/* ------------------------------ */
+
+.terms_box li {
+  font-family: 'magistralcbold';
+  line-height: 2rem;
+	font-size: 1.5rem;
+  color: #9a9db2;
+}
+
+.risk_disclosure ol li {
+	margin-bottom:2rem;
+}
+
+.risk_disclosure ol li li {
+	margin:0.5rem 0;
+}

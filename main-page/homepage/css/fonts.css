@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'bicubikregular';
+    src: url('/assets/fonts/bicubik-webfont.eot');
+    src: url('/assets/fonts/bicubik-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/bicubik-webfont.woff2') format('woff2'),
+         url('/assets/fonts/bicubik-webfont.woff') format('woff'),
+         url('/assets/fonts/bicubik-webfont.ttf') format('truetype'),
+         url('/assets/fonts/bicubik-webfont.svg#bicubikregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'arkitech_bold';
+    src: url('/assets/fonts/arkitech_bold-webfont.eot');
+    src: url('/assets/fonts/arkitech_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/arkitech_bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/arkitech_bold-webfont.woff') format('woff'),
+         url('/assets/fonts/arkitech_bold-webfont.ttf') format('truetype'),
+         url('/assets/fonts/arkitech_bold-webfont.svg#arkitech_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'magistralcregular';
+    src: url('/assets/fonts/magistralc-webfont.eot');
+    src: url('/assets/fonts/magistralc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/magistralc-webfont.woff2') format('woff2'),
+         url('/assets/fonts/magistralc-webfont.woff') format('woff'),
+         url('/assets/fonts/magistralc-webfont.ttf') format('truetype'),
+         url('/assets/fonts/magistralc-webfont.svg#magistralcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'magistralcbold';
+    src: url('/assets/fonts/magistralc-bold-webfont.eot');
+    src: url('/assets/fonts/magistralc-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/magistralc-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/magistralc-bold-webfont.woff') format('woff'),
+         url('/assets/fonts/magistralc-bold-webfont.ttf') format('truetype'),
+         url('/assets/fonts/magistralc-bold-webfont.svg#magistralcbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

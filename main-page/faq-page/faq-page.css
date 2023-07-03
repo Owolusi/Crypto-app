@@ -1,0 +1,89 @@
+.faq_p #fr_content {
+	padding-bottom: 7.5rem;
+}
+.faq_p .public_body {
+	max-width: 78.75rem;
+	margin: 0 auto;
+}
+/* ------------------------------ */
+.accordion {
+	padding: 1.875rem 0 9.375rem;
+}
+/* ------------------------------ */
+.card {
+  background-color: transparent;
+  border-radius: 0.625rem;
+  margin-bottom: 0.625rem;
+  border: 0;
+}
+.accordion>.card:not(:last-of-type) {
+  border-bottom-right-radius: 0.625rem;
+  border-bottom-left-radius: 0.625rem;
+  border-bottom: 0;
+}
+.accordion>.card:not(:first-of-type) {
+  border-top-right-radius: 0.625rem;
+  border-top-left-radius: 0.625rem;
+}
+/* ------------------------------ */
+.faq_btn {
+	padding: 2.813rem 7.5rem 2.813rem 3.75rem;
+  font-family: 'magistralcbold';
+	background-color: #282640;
+	line-height: 1.875rem;
+	font-size: 1.688rem;
+	position: relative;
+	text-align: left;
+	color: #d1caea;
+	width: 100%;
+	border: 0;
+}
+.faq_card .faq_btn:hover,
+.faq_card.active .faq_btn {
+	color:#ffdea6;
+}
+.collapsed.faq_btn {
+	background-color: #1b1a2a;
+	color: #d1caea;
+}
+.card .faq_btn::after {
+	background: url(/assets/img/page/faq/faq-arrow.png) center no-repeat;
+	-webkit-transform: translateY(-50%) rotate(180deg);
+    -moz-transform: translateY(-50%) rotate(180deg);
+    -ms-transform: translateY(-50%) rotate(180deg);
+    -o-transform: translateY(-50%) rotate(180deg);
+    transform: translateY(-50%) rotate(180deg);
+	background-size: contain;
+	position: absolute;
+	width: 0.9375rem;
+	right: 3.125rem;
+	height: 0.5rem;
+	opacity: 0.5;
+	content: '';
+	top: 50%;
+}
+.card.active .faq_btn::after {
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* ------------------------------ */
+.faq_text {
+	font-family: 'magistralcbold';
+	padding: 0 3.75rem 3.75rem;
+	background-color: #282640;
+  line-height: 2.5rem;
+	font-size: 1.625rem;
+	font-style: italic;
+  color: #9999cc;
+}
+
+.faq_answer {
+	cursor:default;
+}
+
+.faq_card .faq_answer {
+	display:none;
+}
