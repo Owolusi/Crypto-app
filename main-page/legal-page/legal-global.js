@@ -333,41 +333,7 @@ $(document).ready (function () {
     
     $(document).ready (function () {
     });
-    /*
-    window.cpInit = function () {
-        setTimeout (function () {
-            $("form.c_protected").each (function () {
-                var $form = $(this);
-                var formName = $form.attr ("name");
-                var pubKey = $("var[n='captcha']").attr ("v");
-                
-                $form.find (".c_protect_box[protect-box='"+ formName +"']").remove ();
-                
-                if (! isVoid (formName)) {
-                    if (! isVoid (pubKey)) {
-                        $form.append ("<div class='c_protect_box' protect-box='"+ formName +"'></div>");
-                        
-                        window.protected_forms[formName] = turnstile.render (".c_protect_box[protect-box='"+ formName +"']", {
-                            sitekey: pubKey,
-                            theme: "dark",
-                            callback: function () {
-                                setTimeout (function () {
-                                    $form.find (".c_protect_box iframe").fadeOut (500, function () {
-                                        $form.find (".c_protect_box iframe").remove ();
-                                    });
-                                }, 1000)
-                            }
-                        });
-                    }
-                }
-            });
-        }, 100);
-        
-        setTimeout (function () {
-            cpInit ();
-        }, 200000);
-    }
-    */
+    
     $(document).on ("input", ".pin_field", function () {
         var $this = $(this);
         var value = Number ($this.val ());

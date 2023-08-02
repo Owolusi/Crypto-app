@@ -555,12 +555,12 @@ select.simple-select {
 	top: 0;
 }
 #top_screen::after {
-	background: url(../../icons/top-screen-right-bg.jpg) center top repeat;
+	background: url(../../icons/top-screen-left-bg.jpg) center top repeat;
 	background-size: contain;
 	left: 0;
 }
 #top_screen::before {
-	background: url(../../icons/top-screen-left-bg.jpg) center top repeat;
+	background: url(../../icons/top-screen-right-bg.jpg) center top repeat;
 	background-size: contain;
 	right: 0;
 }
@@ -863,7 +863,7 @@ select.simple-select {
 	z-index: 5;
 }
 .stat_img::after {
-	background: url(/assets/img/page/home/C12-image-bg.png) center top no-repeat;
+	background: url(../../icons/earth.png) center top no-repeat;
 	background-size: contain;
 	-webkit-transform: translateX(-50%);
 		 -moz-transform: translateX(-50%);
@@ -879,7 +879,7 @@ select.simple-select {
 	left: 50%;
 }
 .stat_img::before {
-	background: url(/assets/img/page/home/C12-image-color.png) right top no-repeat;
+	/*background: url(/assets/img/page/home/C12-image-color.png) right top no-repeat;*/
 	background-size: contain;
 	position: absolute;
 	width: 51.313rem;
@@ -1390,7 +1390,7 @@ a.iconed_link:hover {
 	z-index: 3;
 }
 .board_title::after {
-	background: url(../../icons/leaderboard-right-img.png) right bottom no-repeat;
+	background: url(../../icons/leaderboard-img.png) right bottom no-repeat;
 	background-size: contain;
 	position: absolute;
 	height: 41.75rem;
@@ -1447,7 +1447,7 @@ a.iconed_link:hover {
 	position: relative;
 }
 .board_block::after {
-	/*background: url(../../icons/live-img.png) right center no-repeat;*/
+	background: url(../../icons/leaderboard-left-img.png) right center no-repeat;
 	-webkit-transform: translateY(-50%);
 		 -moz-transform: translateY(-50%);
   		-ms-transform: translateY(-50%);
@@ -1463,7 +1463,7 @@ a.iconed_link:hover {
 	left: 0;
 }
 .board_block::before {
-	background: url(../../icons/leaderboard-left-img.png) right center no-repeat;
+	background: url(../../icons/leaderboard-right-img.png) right center no-repeat;
 	background-size: contain;
 	position: absolute;
 	height: 45.875rem;
